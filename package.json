@@ -1,0 +1,26 @@
+{
+  "name": "e-web-dev",
+  "version": "1.0.0",
+  "description": "web dev class",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corriedotdev/e-web-dev.git"
+  },
+  "start": "node file.js",
+  "keywords": [
+    "web"
+  ],
+  "author": "corrie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corriedotdev/e-web-dev/issues"
+  },
+  "homepage": "https://github.com/corriedotdev/e-web-dev#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
