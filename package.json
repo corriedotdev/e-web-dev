@@ -1,26 +1,16 @@
 {
-  "name": "e-web-dev",
+  "name": "cm4025_nodeonheroku",
   "version": "1.0.0",
-  "description": "web dev class",
+  "description": "node on heroku",
   "main": "index.js",
   "scripts": {
-    "test": "hello"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/corriedotdev/e-web-dev.git"
-  },
-  "start": "node file.js",
-  "keywords": [
-    "web"
-  ],
-  "author": "corrie",
+  "author": "Pam",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/corriedotdev/e-web-dev/issues"
-  },
-  "homepage": "https://github.com/corriedotdev/e-web-dev#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4"
   }
 }
